@@ -132,8 +132,12 @@ To load seed data into the database run the following command:
 ```
 ### Usage
 
-Once the dependencies are installed, run the command `npm start` to start the development server. This will open the project in your default browser at http://localhost:3001/, where you can view and interact with the app.
 
+Finally, you can start the Rails server by running the following command:
+```
+  rails server
+```
+This will start the server on port 3000 by default. You can now access the API at http://localhost:3000/.
 ### Run tests
 
 No tests included.
