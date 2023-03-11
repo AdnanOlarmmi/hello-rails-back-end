@@ -110,7 +110,7 @@ Clone this repository to your desired folder:
 
 ```sh
 
-  git clone git@github.com:adnanolarmmi/hello-react-front-end.git
+  git clone git@github.com:adnanolarmmi/hello-rails-back-end.git
 
 ```
 
