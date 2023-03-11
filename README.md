@@ -116,8 +116,20 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Run the command `npm install` to install the project dependencies. This will download and install all the required packages and modules for the project.
+Open a terminal or command prompt and navigate to the project folder. Run the following command to install the project dependencies:
 
+  bundle install
+
+This will download and install all the required gems for the project. Next, you'll need to set up the database for the project. Run the following commands to create the database and run the migrations:
+```
+  rails db:create
+
+  rails db:migrate
+```
+To load seed data into the database run the following command:
+```
+  rails db:seed
+```
 ### Usage
 
 Once the dependencies are installed, run the command `npm start` to start the development server. This will open the project in your default browser at http://localhost:3001/, where you can view and interact with the app.
